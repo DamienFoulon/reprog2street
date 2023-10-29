@@ -16458,6 +16458,7 @@ blockquote.q-big .d-quote-by{
   position: relative;
   padding: 40px;
   border: solid 1px var(--primary-color);
+  background: black;
 }
 
 .d-sch-table .d-content{
@@ -16475,6 +16476,8 @@ blockquote.q-big .d-quote-by{
   border: solid 1px var(--primary-color);
   top: 10px;
   left: 10px;
+  background: black;
+  z-index: -1;
 }
 
 .d-sch-table .d-col{

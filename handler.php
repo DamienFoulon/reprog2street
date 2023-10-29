@@ -19,10 +19,6 @@ $validator->field('Email')->isEmail();
 $validator->field('Message')->maxLength(6000);
 
 
-$pp->requireReCaptcha();
-$pp->getReCaptcha()->initSecretKey('copy-your-secret-key-here');
-
-
-$pp->sendEmailTo('your-email-here'); // ← Your email here
+$pp->sendEmailTo('rapinatoretv@gmail.com');
 
 echo $pp->process($_POST);
