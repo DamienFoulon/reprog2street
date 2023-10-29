@@ -87,6 +87,13 @@ Table of content:
   --bs-gutter-x: 30px;
 }
 
+.flex-center-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
 /* ================================================== */
 
 
@@ -13118,7 +13125,7 @@ i.big {
   padding: 40px;
 }
 
-.schedule-listing:nth-child(even) {
+.schedule-listing.not-included {
   background: rgba(var(--primary-color-rgb), .5);
 }
 
