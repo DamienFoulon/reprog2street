@@ -12130,6 +12130,7 @@ body.dark-scheme::-webkit-scrollbar-track,
 
 .float-text a{
     color: #ffffff;
+    background: radial-gradient(black, transparent);
 }
 
 .float-text span{
@@ -13122,6 +13123,10 @@ i.big {
 }
 
 .schedule-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   padding: 40px;
 }
 
@@ -13172,7 +13177,7 @@ i.big {
 .schedule-item .sc-info {
   float: none;
   display: inline-block;
-  width: 60%;
+  width: 35%;
 }
 
 .schedule-item .sc-info h4 {
@@ -16548,6 +16553,12 @@ blockquote.q-big .d-quote-by{
   width: auto;
 }
 
+.sm-hide {
+  position: absolute;
+  top: -35%;
+  right: -15%;
+}
+
 /* ================================================== */
 
 
@@ -17668,6 +17679,14 @@ img {
   }
 }
 
+.logo-main {
+  width: 150px;
+}
+
+footer img {
+  width: 150px;
+}
+
 /* ================================================== */
 
 
@@ -17716,6 +17735,10 @@ img {
   .slider_text {
     padding-top: 0px;
   }
+
+  .section-about p.lead {
+    font-size: 16px;
+  }
 }
 
 @media only screen and (max-width: 1090px) {
@@ -17731,6 +17754,10 @@ img {
 
 @media only screen and (max-width: 992px) {
 
+  section {
+    padding: 40px 0 40px 0 !important;
+  }
+
   header .logo-main {
     display: none;
   }
@@ -17741,6 +17768,7 @@ img {
 
   header .logo-mobile {
     display: block;
+    width: 100px;
   }
 
   .de_table .tr .td:nth-child(4),
@@ -18516,7 +18544,7 @@ img {
   h1.ultra-big,
   h1.ultra-big .text-line,
   h1.ultra-big-2{
-    font-size: 13.5vw;
+    font-size: 10vw;
     line-height: 13.5vw;
     padding: 0;
   }
@@ -18717,7 +18745,7 @@ img {
 
   .schedule-item .sc-time {
     width: 100%;
-    padding-bottom: 20px;
+    padding-bottom: 5px;
     float: none;
   }
 
@@ -18738,7 +18766,7 @@ img {
     display: block;
     width: 100%;
     clear: both;
-    padding-top: 30px;
+    padding-top: 10px;
   }
 
   .schedule-item .sc-info h4 {
